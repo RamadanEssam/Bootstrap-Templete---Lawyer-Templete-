@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+
+/*               nav bar                  */
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav li {
+    margin-left: 55px;
+}
+
+/* ------------------------------------------------ */
+
+/*               header              */
+
+header {
+    background-image: url('../image/im3.jpg');
+    background-size: cover;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.mybutton {
+    text-decoration: none;
+    color: white;
+    background-color: #183153;
+    padding: 20px 30px;
+}
+
+.addresofsection span {
+    font-size: 25px;
+    color: #3A58FF;
+    font-weight: 500;
+}
+
+.addresofsection div {
+    width: 50px;
+    height: 3px;
+    background-color: #3A58FF;
+    margin-left: 14px;
+}
+
+header h2 {
+    font-size: 55px;
+    margin-top: 21px;
+    font-weight: 500;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 26px;
+    margin-bottom: 50px;
+    line-height: 49px;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+
+/*                                    section1                                           */
+
+.sec1 {
+    padding: 60px 0px;
+}
+
+.sec1 .col-md-3 {
+    padding-top: 20px;
+    margin: 0px;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+/*                                           section 2                                                  */
+
+.sec2 .row div:last-child {
+    background-color: #3A58FF;
+    color: white;
+    /* padding: 60px 35px; */
+    padding-left: 20px;
+}
+
+.sec2 .addresofsection {
+    margin-right: 0;
+}
+
+.sec2 .addresofsection div {
+    background-color: white;
+}
+
+.sec2 .addresofsection span {
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+/*                                                 section 3                                             */
+
+.sec3 {
+    background-color: #ECF2FE;
+}
+
+.myform {
+    background-color: #3A58FF;
+    color: white;
+    padding: 70px;
+    top: 60px;
+    position: relative;
+    box-shadow: 16px 16px 14px #27262d3b;
+    border-radius: 2%;
+}
+
+.sec3 .addresofsection {
+    margin-right: 0;
+}
+
+.sec3 .addresofsection div {
+    background-color: white;
+}
+
+.sec3 .addresofsection span {
+    color: white;
+}
+
+.sec3 input {
+    color: #183153;
+}
+
+.sec3 label {
+    color: #2b2828;
+}
+
+.sec3 button {
+    background-color: #183153;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .sec3 .myform {
+        top: 2px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------section 4 ------------------------------------ */
+
+.sec4 {
+    padding: 70px 0px;
+    padding-top: 90px;
+}
+
+.sec4 img {
+    width: 100%;
+}
+
+.sec4 .flydiv {
+    background-color: #F8F9FE;
+    height: 90px;
+    top: 86%;
+    left: 0;
+    width: 81%;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------------section 5---------------------------------------- */
+
+.sec5 {
+    background-color: #3A58FF;
+    padding: 10px 0px;
+}
+
+.sec5 p {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 65px;
+    color: white;
+}
+
+.sec5 .mybutton {
+    width: 150px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* ----------------------------------------section 6------------------------------------------------- */
+
+.sec6 {
+    padding: 90px 0px;
+}
+
+.sec6 .card .addresofsection span {
+    font-size: 15px;
+}
+
+.sec6 .card p {
+    font-weight: 700;
+}
+
+.sec6 .card .addresofsection div {
+    width: 40px;
+    height: 2px;
+}
+
+.sec6 .card .card-body {
+    background-color: #8080800f;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/*                                        section 7 (slider)                                      */
+
+.sec7 {
+    background-image: url('../image/im11.png');
+    background-size: 100% 100%;
+    padding: 55px 0px;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/*                                                section 8                                   */
+
+.sec8 {
+    padding: 50px 0px;
+}
+
+.sec8 .card .addresofsection span {
+    font-size: 15px;
+}
+
+.sec8 .card .addresofsection div {
+    width: 40px;
+    height: 2px;
+}
+
+.sec8 .card {
+    border: none;
+}
+
+.sec8 .card .card-body {
+    background-color: #8080800f;
+}
+
+.flydiv {
+    height: 80px;
+    top: -80px;
+    left: 0;
+    width: 81%;
+    background-color: white;
+}
+
+.flydiv h6 {
+    color: #2b2828;
+    font-weight: 100;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+/*---------------------------------------start footer---------------------------*/
+
+footer {
+    background-image: url('../image/im14.jpg');
+    background-size: 100% 100%;
+    padding: 50px 0px;
+    color: white
+}
+
+footer hr {
+    background-color: gray;
+    margin: 30px 0px;
+}
+
+footer h4 {
+    margin-bottom: 30px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer h3 span {
+    color: #3A58FF
+}
+
+footer h3 {
+    margin-bottom: 20px
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+.copyright i {
+    color: #3A58FF
+}
+
+footer .icone i {
+    margin-left: 10px;
+    color: gray
+}
+
+/*----------------------------------------end footer----------------------------*/
